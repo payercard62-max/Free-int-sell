@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download APK</title>
+    <title>Telegram APK</title>
     <style>
         body {
             background-color: black;
@@ -13,37 +13,37 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            font-family: Arial, sans-serif;
             color: white;
         }
+
         img {
-            max-width: 90%;
+            max-width: 80%;
             height: auto;
+            margin-bottom: 30px;
             border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.4);
         }
-        a {
-            text-decoration: none;
-        }
-        button {
+
+        .button {
             background-color: #0088cc;
             color: white;
-            border: none;
-            padding: 12px 24px;
+            padding: 15px 30px;
             font-size: 18px;
+            border: none;
             border-radius: 8px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            text-decoration: none;
         }
-        button:hover {
-            background-color: #006699;
+
+        .button:hover {
+            background-color: #00aaff;
         }
     </style>
 </head>
 <body>
-    <img src="Screenshot_20251021-155002_WhatsApp.jpg" alt="App Image">
-    <a href="https://t.me/+BbmsfQaRjbplNjll" target="_blank">
-        <button>Get Apk</button>
-    </a>
+    <!-- Replace 'your-image.jpg' with your actual image file -->
+    <img src="your-image.jpg" alt="Your Image">
+    
+    <a href="https://t.me/+BbmsfQaRjbplNjll" class="button" target="_blank">Get Apk</a>
 </body>
 </html>
